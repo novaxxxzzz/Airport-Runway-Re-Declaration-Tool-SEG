@@ -1,0 +1,29 @@
+<data>
+    <obstacles>
+        <obstacle>
+            <name>Boeing 777</name>
+            <height>18.6</height>
+            <distanceToCenterline>0</distanceToCenterline>
+            <distanceToLowerThreshold>3000</distanceToLowerThreshold>
+            <distanceToHigherThreshold>100</distanceToHigherThreshold>
+        </obstacle>
+        <obstacle>
+            <name>Boeing 737</name>
+            <height>12.42</height>
+            <distanceToCenterline>0</distanceToCenterline>
+            <distanceToLowerThreshold>3000</distanceToLowerThreshold>
+            <distanceToHigherThreshold>100</distanceToHigherThreshold>
+        </obstacle>
+        <obstacle>
+            <name>Luggage Car</name>
+            <height>1.7</height>
+            <distanceToCenterline>0</distanceToCenterline>
+            <distanceToLowerThreshold>3000</distanceToLowerThreshold>
+            <distanceToHigherThreshold>100</distanceToHigherThreshold>
+        </obstacle>
+
+
+
+
+    </obstacles>
+</data>

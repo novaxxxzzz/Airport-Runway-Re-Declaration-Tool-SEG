@@ -1,0 +1,321 @@
+
+/*below is for the sky*/
+.sideView-background, .topView-background, .simultaneous-background {
+    -fx-background-color: #BDD7EE; /* Light blue background */
+}
+
+.sideView-background-Deuteranopia, .topView-background-Deuteranopia, .simultaneous-background-Deuteranopia {
+    -fx-background-color: #8ea1f2; /*same as default*/
+}
+
+.sideView-background-Tritanopia, .topView-background-Tritanopia, .simultaneous-background-Tritanopia {
+    -fx-background-color: #FF00FF;
+}
+
+.sideView-background-Protanopia, .topView-background-Protanopia, .simultaneous-background-Protanopia {
+    -fx-background-color: #00FFFF;
+}
+
+
+/*below is for the ground*/
+.sideView-ground, .topView-ground, .simultaneous-ground {
+    -fx-background-color: #A9D18E; /* Light blue background */
+}
+
+.sideView-ground-Deuteranopia, .topView-ground-Deuteranopia, .simultaneous-ground-Deuteranopia {
+    -fx-background-color: #FFFF00; /*same as default*/
+}
+
+.sideView-ground-Tritanopia, .topView-ground-Tritanopia, .simultaneous-ground-Tritanopia {
+    -fx-background-color: #32CD32;
+}
+
+.sideView-ground-Protanopia, .topView-ground-Protanopia, .simultaneous-ground-Protanopia {
+    -fx-background-color: #800080;
+}
+
+
+
+.left-box {
+    -fx-background-color: #F8FCEC;
+    -fx-min-width: 300px;
+    -fx-max-width: 300px;
+    -fx-font-family: "Calibri"; /* Font family for items within the boxes */
+    -fx-font-size: 16px; /* Font size for items within the boxes */
+
+}
+
+.right-box {
+    -fx-background-color: #F8FCEC;
+    -fx-min-width: 300px;
+    -fx-max-width: 300px;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 16px;
+
+}
+
+
+
+
+
+
+.menu-box {
+    -fx-background-color: #4472C4;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+}
+
+.menu-box-yellow {
+    -fx-background-color: #FFFF00;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+}
+
+.menu-box-limegreen {
+    -fx-background-color: #32CD32;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+}
+
+.menu-box-purple {
+    -fx-background-color: #800080;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+}
+
+
+.menu-bar, .menu {
+    -fx-background-color: transparent;
+}
+
+.menu > .label:hover{
+    -fx-font-weight: bold;
+}
+.menu .context-menu {
+    -fx-background-color: white;
+
+}
+
+/* Style for the Menu Items */
+.menu-item .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+
+
+}
+
+/* Style for the Menu Items when hovered */
+.menu-item:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: transparent !important;
+}
+
+
+
+.empty {
+    -fx-background-color: transparent;
+}
+
+
+.vbox {
+    -fx-background-color: #f2f2f2;
+}
+.titled-pane{
+    -fx-font-size: 16px;
+    -fx-padding: 3px;
+}
+.grid-pane {
+    -fx-border-color: black; -fx-border-insets: 5; -fx-border-width: 1; -fx-padding: 5;
+}
+
+
+
+
+.titled-pane .label {
+    -fx-text-fill: #333;
+    -fx-font-size: 13px;
+}
+
+
+
+
+.toggle-button {
+    -fx-background-color: #9DC3E6;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-font-size: 12px;
+    -fx-border-width: 1.25;
+}
+
+
+
+
+.toggle-button:selected, .toggle-button:armed {
+    -fx-background-color: #0055cc;
+}
+
+.button-blue {
+    -fx-background-color: #9DC3E6;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-font-size: 12px;
+    -fx-border-width: 1.25;
+}
+
+.button-green {
+    -fx-background-color: #32CD32;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-font-size: 12px;
+    -fx-border-width: 1.25;
+}
+.button-purple {
+    -fx-background-color: #800080;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-font-size: 12px;
+    -fx-border-width: 1.25;
+}
+
+
+
+.button:hover {
+    -fx-font-weight: bold;
+}
+
+.button-selected {
+    -fx-background-color: #0055cc;
+}
+
+.button-selected-blue {
+    -fx-background-color: #0055cc;
+}
+.button-selected-green {
+    -fx-background-color: #32CD32;
+}
+.button-selected-purple {
+    -fx-background-color: #800080;
+}
+
+
+
+.titled-pane > .title {
+    -fx-font-size: 16px;
+    -fx-background-color: #D6D6D6;
+}
+
+
+.combo-box {
+    -fx-font-size: 12px;
+}
+
+.header-label {
+    -fx-font-weight: bold;
+}
+
+
+
+.center-label-blue {
+    -fx-text-fill: white !important;
+    -fx-font-weight: bold;
+    -fx-pref-width: 100%;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-background-color: #4472C4;
+}
+
+.center-label-green {
+    -fx-text-fill: white !important;
+    -fx-font-weight: bold;
+    -fx-pref-width: 100%;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-background-color: #32CD32;
+}
+.center-label-purple {
+    -fx-text-fill: white !important;
+    -fx-font-weight: bold;
+    -fx-pref-width: 100%;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-background-color: #800080;
+}
+
+
+
+.display-designator-text {
+    -fx-font-family: "Calibri";
+    -fx-fill: black !important;
+    -fx-padding: bold;
+    -fx-font-size: 26px;
+}
+
+
+.grid-pane-airportstuff {
+    -fx-font-family: "Calirbri";
+}
+
+.gridpane-label-left {
+    -fx-font-weight: bold;
+}
+
+.grid-pane-label{
+
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: "Calibri";
+
+}
+
+.clearway-box{
+    -fx-background-color: transparent;
+    -fx-max-height: 100;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-style: dashed;
+}
+
+
+.logout-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white; /* Text color for the button */
+    -fx-alignment: center-right;
+    -fx-font-family: "Calibri";
+    -fx-alignment: center-right;
+    -fx-font-size: 16px;
+}
+
+.logout-button:hover {
+    -fx-font-weight: bold;
+}
+
+
+.logout-button {
+    -fx-max-width: infinity; /* Make button grow to push it to the right */
+    -fx-border-color: transparent; /* Remove border */
+}
+
+.view-label {
+    -fx-text-fill: #4472C4 !important;
+    -fx-font-size: 16px;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+
+}
+
+.label {
+    -fx-text-fill: white; /* Color of the text */
+    -fx-font-family: "Calibri"; /* Font family */
+    -fx-font-size: 16px; /* Font size */
+}
+
+.view-label {
+    -fx-text-fill: #4472C4 !important;
+    -fx-font-size: 30px;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+}
+
+.choice-box .list-cell {
+    -fx-text-fill: red; /* Change 'red' to your desired color */
+}
